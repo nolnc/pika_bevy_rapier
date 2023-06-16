@@ -9,20 +9,20 @@ Bevy + Rapier test project for learning
 
 ## Setting up a bevy+rapier project
 
-### Create new rust project
+1. Create new rust project
 `cargo new pika_bevy_rapier`
 
-### Add dependencies
+2. Add dependencies
 `cargo add bevy`
 
-### Also add either 2D or 3D integration or both
+3. Also add either 2D or 3D integration or both
 ```
 cargo add bevy_rapier2d
 cargo add bevy_rapier3d
 ```
 
-### Implement app functionality.
+4. Implement app functionality.
 Refer to "https://github.com/bevyengine/bevy/tree/main/examples" for samples.
 
-### Build and run
+5. Build and run
 `cargo run`
